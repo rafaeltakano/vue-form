@@ -1,5 +1,5 @@
 <template>
-  <main id="form-view">
+  <main id="form-view" class="form-view">
     <VueCard />
   </main>
 </template>
@@ -15,3 +15,11 @@ import VueCard from "@/components/VueCard.vue";
 })
 export default class FormView extends Vue {}
 </script>
+
+<style scoped>
+.form-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+</style>
