@@ -1,17 +1,18 @@
 :root {
-  --primary-background-color: hsl(193, 100%, 7%);
-  --primary-font-family: "Poppins", sans-serif;
-  --primary-color: hsl(153, 47%, 49%);
-  --secondary-color: hsl(0, 0%, 89%);
+  --background-color-primary: hsl(193, 100%, 7%);
+  --font-family-primary: "Poppins", sans-serif;
+  --color-primary: hsl(153, 47%, 49%);
+  --color-secondary: hsl(0, 0%, 89%);
+  --color-dark-blue: hsl(210, 29%, 24%);
 }
 
 body {
-  background-color: var(--primary-background-color);
-  font-family: var(--primary-font-family);
-  color: var(--secondary-color);
+  background-color: var(--background-color-primary);
+  font-family: var(--font-family-primary);
+  color: var(--color-secondary);
   margin: 0;
 }
 
 a {
-  color: var(--secondary-color);
+  color: var(--color-secondary);
 }
