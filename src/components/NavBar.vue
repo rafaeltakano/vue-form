@@ -1,13 +1,14 @@
 <template>
   <nav id="nav-bar">
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/form">Form</router-link>
   </nav>
 </template>
 
 <style scoped>
 nav {
   padding: 30px;
+  text-align: center;
 }
 
 nav a {
