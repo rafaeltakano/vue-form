@@ -1,0 +1,17 @@
+:root {
+  --primary-background-color: hsl(193, 100%, 7%);
+  --primary-font-family: "Poppins", sans-serif;
+  --primary-color: hsl(153, 47%, 49%);
+  --secondary-color: hsl(0, 0%, 89%);
+}
+
+body {
+  background-color: var(--primary-background-color);
+  font-family: var(--primary-font-family);
+  color: var(--secondary-color);
+  margin: 0;
+}
+
+a {
+  color: var(--secondary-color);
+}
